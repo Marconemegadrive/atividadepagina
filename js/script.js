@@ -13,9 +13,9 @@ function topo(){
 
 function login(){
     var logado = 0;
-    var usuario = document.getElementyById("usuario")[0].valueOf;
+    var usuario = document.getElementyByName("usuario")[0].value;
     usuario = usuario.toLowerCase();
-    var senha = document.getElementyById("senha").valueOf;
+    var senha = document.getElementyById("senha").value;
     senha = senha.toLowerCase();
 
     if(usuario == "admin" && senha == "123456"){
